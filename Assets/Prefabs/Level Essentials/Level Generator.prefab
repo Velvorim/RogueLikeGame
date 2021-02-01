@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5033998179100079683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5033998179100079693}
+  - component: {fileID: 5033998179100079682}
+  m_Layer: 0
+  m_Name: Level Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5033998179100079693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5033998179100079683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5033998179846229901}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5033998179100079682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5033998179100079683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62283132e383f1a48b6f46d3a49602af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layoutRoom: {fileID: 6432366278089074623, guid: bc2ce6c99ee6b3f4995e0cb2887a27ea,
+    type: 3}
+  startColor: {r: 0.031372525, g: 0.6574746, b: 0.9372549, a: 1}
+  endColor: {r: 1, g: 0, b: 0, a: 1}
+  shopColor: {r: 0, g: 0, b: 0, a: 0}
+  gunRoomColor: {r: 0, g: 0, b: 0, a: 0}
+  distanceToEnd: 10
+  includeShop: 0
+  minDistanceToShop: 0
+  maxDistanceToShop: 0
+  includeGunRoom: 0
+  minDistanceToGunRoom: 0
+  maxDistanceToGunRoom: 0
+  generatorPoint: {fileID: 5033998179846229901}
+  selectedDirection: 0
+  xOffset: 18
+  yOffset: 10
+  whatIsRoom:
+    serializedVersion: 2
+    m_Bits: 32768
+  rooms:
+    singleUp: {fileID: 1768948491852760072, guid: 7d7c5ef20f43caa49b23f2a6d51672a3,
+      type: 3}
+    singleDown: {fileID: 8216734919388530944, guid: a4bf9097ecc79014881e81e8e31e2ef5,
+      type: 3}
+    singleRight: {fileID: 2122033788618330890, guid: 09992d65a5d958e44b4fcb2daa491670,
+      type: 3}
+    singleLeft: {fileID: 7324123006483099286, guid: 8d77c4a7f8d24e3409d06158b941f4d4,
+      type: 3}
+    doubleUpDown: {fileID: 4341196038754256000, guid: 6e266cdce686d214591544c39641eddb,
+      type: 3}
+    doubleLeftRight: {fileID: 8910685004617194677, guid: 39c9b7065642abf4aa87dd643257b8a9,
+      type: 3}
+    doubleUpRight: {fileID: 127445079463751441, guid: 4fdfc85d5d272c34b83e5c42ff588c41,
+      type: 3}
+    doubleRigthDown: {fileID: 5855157437343697398, guid: 6e236f5057f7c7440b22044f43695926,
+      type: 3}
+    doubleDownLeft: {fileID: 8216431224119225732, guid: 598ade3e72936564f963854b793c6f3e,
+      type: 3}
+    doubleLeftUp: {fileID: 3464914746890903856, guid: 860fe9e3e59acb34c9039af8576f1dd0,
+      type: 3}
+    tripleUpRightDown: {fileID: 4013795198415092286, guid: da926eec08c52bd46bbacb5a3a22d1fd,
+      type: 3}
+    tripleRightDownLeft: {fileID: 3679091831750583352, guid: e7cc2f9a171ef9541b31dcba29f6a3e3,
+      type: 3}
+    tripleDownLeftUp: {fileID: 1572495323337289719, guid: d488973f8ac26834bbe16de637aaaf16,
+      type: 3}
+    tripleLeftUpRight: {fileID: 2161305857709207060, guid: 23b18f0c0a50e1a4e896003f57c63e04,
+      type: 3}
+    fourway: {fileID: 856732444514080822, guid: eaf66d1547e3dd84dbb7b11a764b3fb6,
+      type: 3}
+  centerStart: {fileID: 2724374947654770354, guid: 66a77a83c1918c647acf789428223880,
+    type: 3}
+  centerEnd: {fileID: 882107574897161188, guid: 9d2b468df2d7af048b653b05e2b64462,
+    type: 3}
+  centerShop: {fileID: 0}
+  centerGunRoom: {fileID: 0}
+  potentialsCenters:
+  - {fileID: 5366443178391215254, guid: f1af8baa2b234db438ea4407d420ab0d, type: 3}
+  - {fileID: 2724374947654770354, guid: 66a77a83c1918c647acf789428223880, type: 3}
+--- !u!1 &5033998179846229890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5033998179846229901}
+  m_Layer: 0
+  m_Name: Generation Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5033998179846229901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5033998179846229890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5033998179100079693}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

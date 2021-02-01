@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4599204487547518482
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8423100143437378044, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: playerToSpawn
+      value: 
+      objectReference: {fileID: 8542685314736143845, guid: 0c8f6224e775fdd44964b313be5aa566,
+        type: 3}
+    - target: {fileID: -8423100143437378044, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: message
+      value: 
+      objectReference: {fileID: 5436934984709360113}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455727452110940001, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732907337120160711, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8248543377919322394, guid: a47294d8f066c634d90ee371916313ff,
+        type: 3}
+    - target: {fileID: 4073886484736251483, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_Text
+      value: '''The Fighter'''
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822272431629559603, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+        type: 3}
+      propertyPath: m_Name
+      value: Characters Select - Figther
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95b4e1dde4fe2c64eae4414a8e1068ac, type: 3}
+--- !u!1 &5436934984709360113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8403848377377765347, guid: 95b4e1dde4fe2c64eae4414a8e1068ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 4599204487547518482}
+  m_PrefabAsset: {fileID: 0}
